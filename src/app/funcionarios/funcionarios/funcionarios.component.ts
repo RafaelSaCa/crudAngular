@@ -1,4 +1,9 @@
+import { FuncionariosService } from './../services/funcionarios.service';
 import { Component, OnInit } from '@angular/core';
+import { Funcionario } from '../model/funcionario';
+import { Observable, catchError, of } from 'rxjs';
+import { MatDialog } from '@angular/material/dialog';
+import { DialogErroComponent } from 'src/app/shared/components/dialog-erro/dialog-erro.component';
 
 @Component({
   selector: 'app-funcionarios',
@@ -7,12 +12,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FuncionariosComponent implements OnInit {
 
-  constructor() {
-
-  }
-
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+
   }
 
 
