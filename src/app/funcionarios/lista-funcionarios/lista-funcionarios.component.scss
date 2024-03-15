@@ -12,3 +12,10 @@ table {
   width: 25%;
   margin-left: 8px;
 }
+
+.spinner{
+  background: rgba(0,0,0,0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
